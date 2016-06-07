@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When are you free?"
+            android:textColor="#212121"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/DateTimeStart"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:background="@android:color/white"
+                android:text="Start Date Time"
+                android:capitalize="sentences"
+                android:textColor="#212121"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp" />
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="#212121" />
+            <Button
+                android:id="@+id/DateTimeEnd"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:text="End Date Time"
+                android:background="#FFFFFF"
+                android:textColor="#212121"
+                android:capitalize="sentences"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is your budget?"
+            android:textColor="#212121"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+        <SeekBar
+            android:id="@+id/progressBudget"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:thumb="@drawable/red_scrubber_control"
+            android:progressDrawable="@drawable/red_scrubber_progress" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textColor="#212121"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+        <Spinner
+            android:id="@+id/spinerCity"
+            android:layout_width="298dp"
+            android:layout_height="60dp"
+            style="?android:attr/spinnerDropDownItemStyle"
+            android:background="@android:color/white"
+            android:spinnerMode="dialog"
+            android:dropDownWidth="match_parent"
+            android:prompt="@string/planet_prompt"
+            android:popupBackground="#212121" />
+        <Button
+            android:id="@+id/btnsearch"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/iconbutton1"
+            android:text="Search"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+</LinearLayout>

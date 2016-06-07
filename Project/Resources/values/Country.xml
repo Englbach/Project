@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="planet_prompt">Choose a city</string>
+    <string-array name="planets_array">
+        <item>KL - Selangor</item>
+        <item>Ampang</item>
+        <item>Jajang</item>
+        <item>Klang</item>
+        <item>Kuala Lumpur</item>
+        <item>Petaling Jaya</item>
+        <item>Selayang</item>
+        <item>Shah Alam</item>
+        <item>Subang Jaya</item>
+    </string-array>
+</resources>

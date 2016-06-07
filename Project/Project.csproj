@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{27BB7D00-B032-4E08-8674-262C1AC219CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Project</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Vector.Drawable">
+      <HintPath>..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Animated.Vector.Drawable">
+      <HintPath>..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.Animated.Vector.Drawable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Design">
+      <HintPath>..\packages\Xamarin.Android.Support.Design.23.3.0\lib\MonoAndroid43\Xamarin.Android.Support.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading.Platform">
+      <HintPath>..\packages\Xamarin.FFImageLoading.2.1.2\lib\MonoAndroid10\FFImageLoading.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading">
+      <HintPath>..\packages\Xamarin.FFImageLoading.2.1.2\lib\MonoAndroid10\FFImageLoading.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Fragment\Explore.cs" />
+    <Compile Include="Resources\Fragment\Featured.cs" />
+    <Compile Include="Resources\Fragment\Todo.cs" />
+    <Compile Include="Resources\Fragment\More.cs" />
+    <Compile Include="Resources\ViewModel\ViewPagerAdapter.cs" />
+    <Compile Include="Resources\ViewModel\CustomSpinnerAdapter.cs" />
+    <Compile Include="Resources\Fragment\TimeBuget.cs" />
+    <Compile Include="Resources\Fragment\SpecialActivity.cs" />
+    <Compile Include="Resources\ViewModel\SplashScreen.cs" />
+    <Compile Include="Resources\ViewModel\LoginActivity.cs" />
+    <Compile Include="Resources\ViewModel\DatePickerVM.cs" />
+    <Compile Include="Resources\Fragment\GoingFragment.cs" />
+    <Compile Include="Resources\Fragment\InterestedFragment.cs" />
+    <Compile Include="Resources\Fragment\InvitedFragment.cs" />
+    <Compile Include="Resources\ViewModel\ListViewAdapter.cs" />
+    <Compile Include="Resources\Model\ViewCollection.cs" />
+    <Compile Include="Resources\ResultsActivity.cs" />
+    <Compile Include="Resources\ViewModel\GridViewAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
+    <None Include="Resources\drawable\seekbar.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\values\Themes.xml" />
+    <AndroidResource Include="Resources\layout\FeaturedLayout.axml" />
+    <AndroidResource Include="Resources\layout\MoreLayout.axml" />
+    <AndroidResource Include="Resources\layout\TodoLayout.axml" />
+    <AndroidResource Include="Resources\layout\ExploreLayout.axml" />
+    <AndroidResource Include="Resources\drawable\BookmarkBlack.png" />
+    <AndroidResource Include="Resources\drawable\BookmarkWhite.png" />
+    <AndroidResource Include="Resources\drawable\ChristmasBlack.png" />
+    <AndroidResource Include="Resources\drawable\ChristmasWhite.png" />
+    <AndroidResource Include="Resources\drawable\MenuBlack.png" />
+    <AndroidResource Include="Resources\drawable\MenuWhite.png" />
+    <AndroidResource Include="Resources\drawable\SearchBlack.png" />
+    <AndroidResource Include="Resources\drawable\SearchWhite.png" />
+    <AndroidResource Include="Resources\layout\CustomeSpinnerRow.axml" />
+    <AndroidResource Include="Resources\layout\TimeBugetLayout.axml" />
+    <AndroidResource Include="Resources\layout\SpecialActivity.axml" />
+    <AndroidResource Include="Resources\drawable\backgroundscreen.png" />
+    <AndroidResource Include="Resources\layout\LoginLayout.axml" />
+    <AndroidResource Include="Resources\drawable\backgroundlogin.png" />
+    <AndroidResource Include="Resources\drawable\iconbutton.png" />
+    <AndroidResource Include="Resources\drawable\iconbutton1.png" />
+    <AndroidResource Include="Resources\drawable\Facebook20.png" />
+    <AndroidResource Include="Resources\drawable\seekthumb.png" />
+    <AndroidResource Include="Resources\drawable\seekbg.png" />
+    <AndroidResource Include="Resources\drawable\seek.png" />
+    <AndroidResource Include="Resources\values\Country.xml" />
+    <AndroidResource Include="Resources\layout\SpinerItem.axml" />
+    <AndroidResource Include="Resources\drawable\red_scrubber_control_disabled_holo.png" />
+    <AndroidResource Include="Resources\drawable\red_scrubber_control_focused_holo.png" />
+    <AndroidResource Include="Resources\drawable\red_scrubber_control_normal_holo.png" />
+    <AndroidResource Include="Resources\drawable\red_scrubber_control_pressed_holo.png" />
+    <AndroidResource Include="Resources\drawable\red_scrubber_control.xml" />
+    <AndroidResource Include="Resources\drawable\red_scrubber_progress.xml" />
+    <AndroidResource Include="Resources\drawable\red_scrubber_track_holo_light.png" />
+    <AndroidResource Include="Resources\drawable\red_scrubber_secondary_holo.png" />
+    <AndroidResource Include="Resources\drawable\red_scrubber_primary_holo.png" />
+    <AndroidResource Include="Resources\layout\GoingLayout.axml" />
+    <AndroidResource Include="Resources\layout\InterestedLayout.axml" />
+    <AndroidResource Include="Resources\layout\InvitedLayout.axml" />
+    <AndroidResource Include="Resources\layout\ListViewItems.axml" />
+    <AndroidResource Include="Resources\layout\ResultsLayout.axml" />
+    <AndroidResource Include="Resources\layout\GridViewItems.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\Fragment\" />
+    <Folder Include="Resources\ViewModel\" />
+    <Folder Include="Resources\Model\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
+</Project>

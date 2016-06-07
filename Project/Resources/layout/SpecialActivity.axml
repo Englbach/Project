@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Looking for something specific?"
+            android:textColor="#212121"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/editseach"
+                android:layout_width="298dp"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:textColorHint="#CCCCCC"
+                android:paddingLeft="10dp"
+                android:textSize="14dp"
+                android:hint="Stand-up comedy,archery, etc" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textColor="#212121"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+        <Spinner
+            android:id="@+id/spinerCity1"
+            android:layout_width="298dp"
+            android:layout_height="60dp"
+            style="?android:attr/spinnerDropDownItemStyle"
+            android:background="@android:color/white"
+            android:spinnerMode="dialog"
+            android:dropDownWidth="match_parent"
+            android:prompt="@string/planet_prompt"
+            android:popupBackground="#212121"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+        <Button
+            android:id="@+id/btnsearch1"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/iconbutton1"
+            android:text="Search"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+</LinearLayout>
