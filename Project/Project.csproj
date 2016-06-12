@@ -60,11 +60,23 @@
     <Reference Include="Xamarin.Android.Support.Design">
       <HintPath>..\packages\Xamarin.Android.Support.Design.23.3.0\lib\MonoAndroid43\Xamarin.Android.Support.Design.dll</HintPath>
     </Reference>
+    <Reference Include="Bolts.Tasks">
+      <HintPath>..\packages\Bolts.1.4.0\lib\MonoAndroid403\Bolts.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolts.AppLinks">
+      <HintPath>..\packages\Bolts.1.4.0\lib\MonoAndroid403\Bolts.AppLinks.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Facebook">
+      <HintPath>..\packages\Xamarin.Facebook.Android.4.11.0\lib\MonoAndroid403\Xamarin.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.CardView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
     <Reference Include="FFImageLoading.Platform">
-      <HintPath>..\packages\Xamarin.FFImageLoading.2.1.2\lib\MonoAndroid10\FFImageLoading.Platform.dll</HintPath>
+      <HintPath>..\packages\Xamarin.FFImageLoading.2.1.3\lib\MonoAndroid10\FFImageLoading.Platform.dll</HintPath>
     </Reference>
     <Reference Include="FFImageLoading">
-      <HintPath>..\packages\Xamarin.FFImageLoading.2.1.2\lib\MonoAndroid10\FFImageLoading.dll</HintPath>
+      <HintPath>..\packages\Xamarin.FFImageLoading.2.1.3\lib\MonoAndroid10\FFImageLoading.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +101,10 @@
     <Compile Include="Resources\Model\ViewCollection.cs" />
     <Compile Include="Resources\ResultsActivity.cs" />
     <Compile Include="Resources\ViewModel\GridViewAdapter.cs" />
+    <Compile Include="Resources\AccountAndPaymentActivity.cs" />
+    <Compile Include="Resources\ShareTheJoyActivity.cs" />
+    <Compile Include="Resources\HistoryActivity.cs" />
+    <Compile Include="Resources\HelpActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -147,6 +163,12 @@
     <AndroidResource Include="Resources\layout\ListViewItems.axml" />
     <AndroidResource Include="Resources\layout\ResultsLayout.axml" />
     <AndroidResource Include="Resources\layout\GridViewItems.axml" />
+    <AndroidResource Include="Resources\layout\SettingItems.axml" />
+    <AndroidResource Include="Resources\layout\AccountAndPaymentLayout.axml" />
+    <AndroidResource Include="Resources\layout\ShareTheJoyLayout.axml" />
+    <AndroidResource Include="Resources\layout\HistoryActivityLayout.axml" />
+    <AndroidResource Include="Resources\layout\HelpActivityLayout.axml" />
+    <AndroidResource Include="Resources\layout\ListviewPaymentItem.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

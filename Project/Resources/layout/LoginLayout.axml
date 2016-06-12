@@ -19,7 +19,7 @@
             android:textSize="23dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp" />
-        <Button
+        <com.facebook.login.widget.LoginButton
             android:id="@+id/btnloginbyfacebook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,11 +41,12 @@
             android:layout_width="280dp"
             android:layout_height="130dp"
             android:orientation="vertical"
-            android:background="@android:color/white">
+            android:background="@android:color/white"
+            android:gravity="center">
             <android.support.design.widget.TextInputLayout
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="8dp"
                 android:layout_marginRight="5dp"
                 android:id="@+id/input_layout_username"
                 android:layout_width="match_parent"
@@ -53,7 +54,7 @@
                 <EditText
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginBottom="5dp"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginRight="5dp"
                     android:id="@+id/input_username"
                     android:layout_width="match_parent"
@@ -64,7 +65,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="8dp"
                 android:layout_marginRight="5dp"
                 android:id="@+id/input_layout_password"
                 android:layout_width="match_parent"
@@ -72,7 +73,7 @@
                 <EditText
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginBottom="5dp"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginRight="5dp"
                     android:id="@+id/input_password"
                     android:layout_width="match_parent"

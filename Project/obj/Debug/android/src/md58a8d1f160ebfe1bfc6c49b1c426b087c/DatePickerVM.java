@@ -7,7 +7,8 @@ public class DatePickerVM
 		mono.android.IGCUserPeer,
 		android.app.DatePickerDialog.OnDateSetListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onCreateDialog:(Landroid/os/Bundle;)Landroid/app/Dialog;:GetOnCreateDialog_Landroid_os_Bundle_Handler\n" +
@@ -40,7 +41,7 @@ public class DatePickerVM
 
 	private native void n_onDateSet (android.widget.DatePicker p0, int p1, int p2, int p3);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

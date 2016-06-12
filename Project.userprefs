@@ -1,20 +1,18 @@
 ﻿<Properties StartupItem="Project/Project.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus5" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Project/Resources/AccountAndPaymentActivity.cs">
     <Files>
-      <File FileName="Project/Resources/ResultsActivity.cs" Line="30" Column="28" />
-      <File FileName="Project/MainActivity.cs" Line="45" Column="67" />
-      <File FileName="Project/Resources/ViewModel/GridViewAdapter.cs" Line="56" Column="64" />
-      <File FileName="Project/Resources/Model/ViewCollection.cs" Line="13" Column="39" />
-      <File FileName="Project/Resources/Fragment/Explore.cs" Line="62" Column="3" />
-      <File FileName="Project/Resources/Fragment/TimeBuget.cs" Line="48" Column="18" />
+      <File FileName="Project/Resources/ViewModel/ListViewAdapter.cs" Line="61" Column="5" />
+      <File FileName="Project/Resources/ViewModel/LoginActivity.cs" Line="22" Column="20" />
+      <File FileName="Project/Resources/Fragment/More.cs" Line="60" Column="35" />
+      <File FileName="Project/Resources/AccountAndPaymentActivity.cs" Line="86" Column="3" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/hoanglethien/Desktop/Project/Project/Resources/ViewModel/SetupViewPager.cs" line="23" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Project AndroidDesignerPreferredDevice="Nexus 4" />
+  <MonoDevelop.Ide.ItemProperties.Project AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus5" />
 </Properties>

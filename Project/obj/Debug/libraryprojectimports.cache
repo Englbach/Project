@@ -2,13 +2,19 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/hoanglethien/Desktop/Project/Project/obj/Debug/__library_projects__/Bolts.AppLinks/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/hoanglethien/Desktop/Project/Project/obj/Debug/__library_projects__/Xamarin.Facebook/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/hoanglethien/Desktop/Project/Project/obj/Debug/__library_projects__/FFImageLoading.Platform/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>/Users/hoanglethien/Desktop/Project/Project/obj/Debug/__library_projects__/Bolts.AppLinks/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/hoanglethien/Desktop/Project/Project/obj/Debug/__library_projects__/Xamarin.Facebook/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>/Users/hoanglethien/Desktop/Project/Project/obj/Debug/__library_projects__/FFImageLoading.Platform/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/hoanglethien/Desktop/Project/Project/obj/Debug/__library_projects__/Bolts.AppLinks.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/hoanglethien/Desktop/Project/Project/obj/Debug/__library_projects__/Xamarin.Facebook.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/hoanglethien/Desktop/Project/Project/obj/Debug/__library_projects__/FFImageLoading.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
